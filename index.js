@@ -7,7 +7,7 @@ function produceDrivingRange(blocks){
     let difference = blocks - distance;
 
     if (difference > 0) {
-      return `within range by ${difference}`
+      return `within range ${difference}`
     } else {
       return `${Math.abs(difference)} blocks out of range`
     }

@@ -14,3 +14,9 @@ function produceDrivingRange(blocks){
   }
 }
 
+
+function produceTipCalculator(pct) {
+  return function (fare) {
+    return fare * pct;
+  }
+}
